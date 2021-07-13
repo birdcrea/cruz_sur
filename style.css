@@ -75,3 +75,17 @@ footer{
     border: #fcef00;
     color: #3121bc;
 }
+
+/* Diseño para celulares */
+@media (max-width: 480px){
+    .promo {
+      position:sticky;
+      top: 51px 10px;
+      padding: 2rem 3em;
+      display: inline;
+      
+        
+  
+          
+    }
+  }
