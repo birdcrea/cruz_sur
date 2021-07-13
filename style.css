@@ -1,0 +1,77 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/bg_img.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #005592;
+    padding: 1rem;
+}
+.page{
+    padding: 0;
+    margin: 0;
+    
+}
+.promo{
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+.cube-float{
+    padding: 1rem;
+    background-color: #fcef00;
+    border-radius: 10px;
+    box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.14);
+    text-align: center;
+    width: 250px;
+}
+.cube-float .title{
+    color: #3121bc;
+    font-weight: bold;
+    font-size: 24px;
+}
+.cube-float .image-promo{
+    position: relative;
+}
+.cube-float .image-promo a.btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btn-primary{
+    background-color: #fcef00;
+    border: #fcef00;
+    color: #3121bc;
+    text-transform: uppercase;
+}
+.card{
+    background: transparent;
+    border-color: transparent;
+}
+.card-header{
+    background: transparent;
+    border-color: transparent;
+}
+.card-header h4{
+    font-weight: bold;
+    color: #3121bc;
+}
+footer{
+    background-color: #002762;
+    color: #FFF;
+}
+.form-send{
+    text-align: left;
+}
+.btn-secondary{
+    background-color: #fcef00;
+    border: #fcef00;
+    color: #3121bc;
+}
